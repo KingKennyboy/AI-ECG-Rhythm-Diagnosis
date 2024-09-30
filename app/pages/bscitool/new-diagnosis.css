@@ -1,0 +1,2070 @@
+.new-diagnosis-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.new-diagnosis-inventory-management-dashboard {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 3px 6px 0px rgba(18, 15, 40, 0.11999999731779099) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(250, 250, 251, 1);
+}
+.new-diagnosis-text {
+  top: 116px;
+  left: 419px;
+  color: rgba(23, 26, 31, 1);
+  width: 651px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 68px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-container24 {
+  top: 230px;
+  left: 51px;
+  width: 825px;
+  height: 543px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-text02 {
+  top: 24px;
+  left: 32px;
+  color: rgba(50, 55, 67, 1);
+  width: 283px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-text04 {
+  top: 75px;
+  left: 32px;
+  color: rgba(111, 119, 135, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-table1 {
+  top: 127px;
+  left: 29px;
+  width: 765px;
+  height: 306px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-row {
+  top: 0px;
+  left: 0px;
+  width: 765px;
+  height: 102px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-frame {
+  top: 0px;
+  left: 572.25px;
+  width: 193px;
+  height: 102px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-slider {
+  top: 40px;
+  left: 31.875px;
+  width: 129px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-frame01 {
+  top: 8px;
+  left: 0px;
+  width: 129px;
+  height: 6px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background-color: rgba(211, 193, 250, 1);
+}
+.new-diagnosis-frame02 {
+  top: 0px;
+  left: 356px;
+  width: 216px;
+  height: 102px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-tag {
+  top: 37px;
+  left: 16px;
+  width: 45px;
+  height: 28px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-frame03 {
+  top: 0px;
+  left: 0px;
+  width: 45px;
+  height: 28px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(55, 154, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 14px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-text06 {
+  top: 4px;
+  left: 8px;
+  color: rgba(55, 154, 230, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-frame04 {
+  top: 0px;
+  left: 58.25px;
+  width: 298px;
+  height: 102px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-text08 {
+  top: 29px;
+  left: 16px;
+  color: rgba(23, 26, 31, 1);
+  width: 264px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-text10 {
+  top: 53px;
+  left: 16px;
+  color: rgba(86, 93, 109, 1);
+  width: 264px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-frame05 {
+  top: 0px;
+  left: 0px;
+  width: 58px;
+  height: 102px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-arrowupright {
+  top: 39px;
+  left: 17.125px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.new-diagnosis-row1 {
+  top: 102px;
+  left: 0px;
+  width: 765px;
+  height: 102px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-frame06 {
+  top: 0px;
+  left: 0px;
+  width: 58px;
+  height: 102px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-create {
+  top: 39px;
+  left: 17.125px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.new-diagnosis-frame07 {
+  top: 0px;
+  left: 356px;
+  width: 216px;
+  height: 102px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-tag1 {
+  top: 37px;
+  left: 16px;
+  width: 151px;
+  height: 28px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-frame08 {
+  top: 0px;
+  left: 0px;
+  width: 78px;
+  height: 28px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(125, 102, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 14px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-text12 {
+  top: 4px;
+  left: 8px;
+  color: rgba(125, 102, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-frame09 {
+  top: 0px;
+  left: 82px;
+  width: 69px;
+  height: 28px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(125, 102, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 14px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-text14 {
+  top: 4px;
+  left: 8px;
+  color: rgba(125, 102, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-frame10 {
+  top: 0px;
+  left: 58.25px;
+  width: 298px;
+  height: 102px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-text16 {
+  top: 29px;
+  left: 16px;
+  color: rgba(23, 26, 31, 1);
+  width: 264px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-text18 {
+  top: 53px;
+  left: 16px;
+  color: rgba(86, 93, 109, 1);
+  width: 264px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-frame11 {
+  top: 0px;
+  left: 572.25px;
+  width: 193px;
+  height: 102px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-slider1 {
+  top: 40px;
+  left: 31.375px;
+  width: 130px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-frame12 {
+  top: 8px;
+  left: 0px;
+  width: 130px;
+  height: 6px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background-color: rgba(211, 193, 250, 1);
+}
+.new-diagnosis-rectangle {
+  top: 0px;
+  left: 0px;
+  width: 43px;
+  height: 6px;
+  position: absolute;
+}
+.new-diagnosis-row2 {
+  top: 204px;
+  left: 0px;
+  width: 765px;
+  height: 102px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-frame13 {
+  top: 0px;
+  left: 356px;
+  width: 216px;
+  height: 102px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-tag2 {
+  top: 37px;
+  left: 16px;
+  width: 182px;
+  height: 28px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-frame14 {
+  top: 0px;
+  left: 0px;
+  width: 78px;
+  height: 28px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(17, 123, 52, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 14px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-text20 {
+  top: 4px;
+  left: 8px;
+  color: rgba(17, 123, 52, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-frame15 {
+  top: 0px;
+  left: 82px;
+  width: 65px;
+  height: 28px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(17, 123, 52, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 14px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-text22 {
+  top: 4px;
+  left: 8px;
+  color: rgba(17, 123, 52, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-frame16 {
+  top: 0px;
+  left: 151px;
+  width: 31px;
+  height: 28px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(17, 123, 52, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 14px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-text24 {
+  top: 4px;
+  left: 8px;
+  color: rgba(17, 123, 52, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-frame17 {
+  top: 0px;
+  left: 572.25px;
+  width: 193px;
+  height: 102px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-slider2 {
+  top: 40px;
+  left: 31.875px;
+  width: 129px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-frame18 {
+  top: 8px;
+  left: 0px;
+  width: 129px;
+  height: 6px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background-color: rgba(211, 193, 250, 1);
+}
+.new-diagnosis-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 129px;
+  height: 6px;
+  position: absolute;
+}
+.new-diagnosis-frame19 {
+  top: 0px;
+  left: 58.25px;
+  width: 298px;
+  height: 102px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-text26 {
+  top: 29px;
+  left: 16px;
+  color: rgba(23, 26, 31, 1);
+  width: 264px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-text28 {
+  top: 53px;
+  left: 16px;
+  color: rgba(86, 93, 109, 1);
+  width: 264px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-frame20 {
+  top: 0px;
+  left: 0px;
+  width: 58px;
+  height: 102px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-create1 {
+  top: 39px;
+  left: 17.125px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.new-diagnosis-button33 {
+  top: 62px;
+  left: 716px;
+  width: 78px;
+  height: 36px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(144, 149, 161, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-text30 {
+  top: 7px;
+  left: 34px;
+  color: rgba(144, 149, 161, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-filteralt {
+  top: 10px;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.new-diagnosis-textbox5 {
+  top: 62px;
+  left: 368px;
+  width: 331px;
+  height: 35px;
+  display: flex;
+  position: absolute;
+  box-sizing: content-box;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(144, 149, 161, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-text32 {
+  top: 7px;
+  left: 34px;
+  color: rgba(189, 193, 202, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-search {
+  top: 10px;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.new-diagnosis-button331 {
+  top: 463px;
+  left: 32px;
+  width: 313px;
+  height: 52px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(144, 149, 161, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-text34 {
+  top: 12px;
+  left: 109.5px;
+  color: rgba(144, 149, 161, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-viewstream {
+  top: 14px;
+  left: 77.5px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.new-diagnosis-container241 {
+  top: 228px;
+  left: 929px;
+  width: 452px;
+  height: 164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-button332 {
+  top: 21px;
+  left: 27px;
+  width: 391px;
+  height: 114px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(144, 149, 161, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-text36 {
+  top: 43px;
+  left: 149px;
+  color: rgba(144, 149, 161, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-add {
+  top: 45px;
+  left: 117px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.new-diagnosis-container242 {
+  top: 448px;
+  left: 929px;
+  width: 452px;
+  height: 325px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-container243 {
+  top: 54px;
+  left: 34px;
+  width: 377px;
+  height: 231px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(222, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-line-chart1 {
+  top: 17px;
+  left: 25px;
+  width: 328px;
+  height: 196px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-frame21 {
+  top: 50px;
+  left: 0px;
+  width: 328px;
+  height: 146px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-frame22 {
+  top: 0px;
+  left: 0px;
+  width: 328px;
+  height: 146px;
+  position: absolute;
+}
+.new-diagnosis-frame23 {
+  top: 0px;
+  left: 0px;
+  width: 328px;
+  height: 146px;
+  position: absolute;
+}
+.new-diagnosis-frame24 {
+  top: 0px;
+  left: 0px;
+  width: 328px;
+  height: 146px;
+  position: absolute;
+}
+.new-diagnosis-frame25 {
+  top: 0px;
+  left: 0px;
+  width: 328px;
+  height: 146px;
+  position: absolute;
+}
+.new-diagnosis-frame26 {
+  top: 0px;
+  left: 53.5px;
+  width: 221px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-diagnosis-group {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-ellipse {
+  top: 5px;
+  left: 2.939152446204403e-15px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
+.new-diagnosis-text38 {
+  left: 16px;
+  color: rgba(23, 26, 31, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-group1 {
+  top: 0px;
+  left: 64px;
+  width: 52px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-ellipse1 {
+  top: 5px;
+  left: 0px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
+.new-diagnosis-text40 {
+  left: 16px;
+  color: rgba(23, 26, 31, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-group2 {
+  top: 0px;
+  left: 135px;
+  width: 34px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-ellipse2 {
+  top: 5px;
+  left: 0px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
+.new-diagnosis-text42 {
+  left: 16px;
+  color: rgba(23, 26, 31, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-group3 {
+  top: 0px;
+  left: 188px;
+  width: 34px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-ellipse3 {
+  top: 5px;
+  left: 0px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
+.new-diagnosis-text44 {
+  left: 16px;
+  color: rgba(23, 26, 31, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-text46 {
+  top: 7px;
+  left: 81px;
+  color: rgba(50, 55, 67, 1);
+  width: 283px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-container75 {
+  gap: 553px;
+  top: -0.5px;
+  left: -1px;
+  width: 1440px;
+  height: 63px;
+  display: flex;
+  padding: 1px 0;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-image59 {
+  top: 6.5px;
+  left: 10px;
+  width: 111px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.new-diagnosis-group4 {
+  top: -0.032199859619140625px;
+  left: -0.020198822021484375px;
+  width: 112.15322875976562px;
+  height: 49.055397033691406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-group5 {
+  top: 0px;
+  left: 0px;
+  width: 112.15322875976562px;
+  height: 49.055397033691406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-group6 {
+  top: 0px;
+  left: 0px;
+  width: 112.15322875976562px;
+  height: 49.055397033691406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-group7 {
+  top: 0px;
+  left: 0px;
+  width: 112.15322875976562px;
+  height: 49.055397033691406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-c {
+  top: 20.678800582885742px;
+  left: 72.3948745727539px;
+  width: 6.520257949829102px;
+  height: 12.07859992980957px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector {
+  top: 0px;
+  left: 0px;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+}
+.new-diagnosis-c01 {
+  top: 20.678800582885742px;
+  left: 31.35666275024414px;
+  width: 6.520257949829102px;
+  height: 12.07859992980957px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector01 {
+  top: 0px;
+  left: 0px;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+}
+.new-diagnosis-c02 {
+  top: 12.263999938964844px;
+  left: 79.6669921875px;
+  width: 14.357650756835938px;
+  height: 20.524599075317383px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector02 {
+  top: 0px;
+  left: 0px;
+  width: 14px;
+  height: 21px;
+  position: absolute;
+}
+.new-diagnosis-c03 {
+  top: 12.65939998626709px;
+  left: 6.622367858886719px;
+  width: 12.631464004516602px;
+  height: 20.56559944152832px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector03 {
+  top: 0px;
+  left: 0px;
+  width: 13px;
+  height: 21px;
+  position: absolute;
+}
+.new-diagnosis-c04 {
+  top: 17.820598602294922px;
+  left: 63.52173614501953px;
+  width: 8.377342224121094px;
+  height: 15.391400337219238px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector04 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 15px;
+  position: absolute;
+}
+.new-diagnosis-c05 {
+  top: 20.727001190185547px;
+  left: 49.616554260253906px;
+  width: 14.513094902038574px;
+  height: 12.078598022460938px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector05 {
+  top: 0px;
+  left: 0px;
+  width: 15px;
+  height: 12px;
+  position: absolute;
+}
+.new-diagnosis-c06 {
+  top: 20.814800262451172px;
+  left: 20.657325744628906px;
+  width: 10.013545036315918px;
+  height: 12.414799690246582px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector06 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 12px;
+  position: absolute;
+}
+.new-diagnosis-c07 {
+  top: 20.7947998046875px;
+  left: 93.99968719482422px;
+  width: 9.98900032043457px;
+  height: 12.414799690246582px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector07 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 12px;
+  position: absolute;
+}
+.new-diagnosis-c08 {
+  top: 20.804798126220703px;
+  left: 38.76127243041992px;
+  width: 10.218070030212402px;
+  height: 12.414800643920898px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector08 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 12px;
+  position: absolute;
+}
+.new-diagnosis-c09 {
+  top: 0px;
+  left: 19.326248168945312px;
+  width: 12.61510181427002px;
+  height: 16.752599716186523px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector09 {
+  top: 0px;
+  left: 0px;
+  width: 13px;
+  height: 17px;
+  position: absolute;
+}
+.new-diagnosis-c10 {
+  top: 6.303800582885742px;
+  left: 32.98699951171875px;
+  width: 10.078990936279297px;
+  height: 10.85680103302002px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector10 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 11px;
+  position: absolute;
+}
+.new-diagnosis-c11 {
+  top: 6.303800582885742px;
+  left: 58.772300720214844px;
+  width: 10.078990936279297px;
+  height: 10.85680103302002px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector11 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 11px;
+  position: absolute;
+}
+.new-diagnosis-c12 {
+  top: 6.174999237060547px;
+  left: 68.82300567626953px;
+  width: 12.500566482543945px;
+  height: 10.602599143981934px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector12 {
+  top: 0px;
+  left: 0px;
+  width: 13px;
+  height: 11px;
+  position: absolute;
+}
+.new-diagnosis-c13 {
+  top: 6.273799896240234px;
+  left: 44.096397399902344px;
+  width: 7.223821640014648px;
+  height: 10.864999771118164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector13 {
+  top: 0px;
+  left: 0px;
+  width: 7px;
+  height: 11px;
+  position: absolute;
+}
+.new-diagnosis-c14 {
+  top: 3.2768001556396484px;
+  left: 51.69159698486328px;
+  width: 7.223821640014648px;
+  height: 13.890800476074219px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector14 {
+  top: 0px;
+  left: 0px;
+  width: 7px;
+  height: 14px;
+  position: absolute;
+}
+.new-diagnosis-c15 {
+  top: 40.56159973144531px;
+  left: 0px;
+  width: 6.5447998046875px;
+  height: 6.272998332977295px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector15 {
+  top: 0px;
+  left: 0px;
+  width: 7px;
+  height: 6px;
+  position: absolute;
+}
+.new-diagnosis-c16 {
+  top: 40.562400817871094px;
+  left: 6.730033874511719px;
+  width: 4.687712669372559px;
+  height: 6.382412910461426px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector16 {
+  top: 0px;
+  left: 0px;
+  width: 5px;
+  height: 6px;
+  position: absolute;
+}
+.new-diagnosis-c17 {
+  top: 42.18339920043945px;
+  left: 12.121513366699219px;
+  width: 4.671350955963135px;
+  height: 4.657600402832031px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector17 {
+  top: 0px;
+  left: 0px;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c18 {
+  top: 42.14139938354492px;
+  left: 16.79650115966797px;
+  width: 4.221395969390869px;
+  height: 4.821600914001465px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector18 {
+  top: 0px;
+  left: 0px;
+  width: 4px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c19 {
+  top: 42.06420135498047px;
+  left: 22.009414672851562px;
+  width: 4.663168907165527px;
+  height: 4.74779748916626px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector19 {
+  top: 0px;
+  left: 0px;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c20 {
+  top: 42.06431579589844px;
+  left: 27.461294174194336px;
+  width: 3.7059922218322754px;
+  height: 4.863285064697266px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector20 {
+  top: 0px;
+  left: 0px;
+  width: 4px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c21 {
+  top: 40.57160186767578px;
+  left: 31.91902732849121px;
+  width: 1.1535208225250244px;
+  height: 6.281199932098389px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector21 {
+  top: 0px;
+  left: 0px;
+  width: 1px;
+  height: 6px;
+  position: absolute;
+}
+.new-diagnosis-c22 {
+  top: 42.06420135498047px;
+  left: 33.9779167175293px;
+  width: 4.663167476654053px;
+  height: 4.74779748916626px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector22 {
+  top: 0px;
+  left: 0px;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c23 {
+  top: 42.07719802856445px;
+  left: 39.42706298828125px;
+  width: 4.785887241363525px;
+  height: 6.978198528289795px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector23 {
+  top: 0px;
+  left: 0px;
+  width: 5px;
+  height: 7px;
+  position: absolute;
+}
+.new-diagnosis-c24 {
+  top: 42.064998626708984px;
+  left: 48.07700729370117px;
+  width: 3.1087794303894043px;
+  height: 4.854401588439941px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector24 {
+  top: 0px;
+  left: 0px;
+  width: 3px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c25 {
+  top: 42.06431579589844px;
+  left: 51.905208587646484px;
+  width: 3.7059950828552246px;
+  height: 4.863285064697266px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector25 {
+  top: 0px;
+  left: 0px;
+  width: 4px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c26 {
+  top: 40.57160186767578px;
+  left: 56.413448333740234px;
+  width: 1.153517723083496px;
+  height: 6.281199932098389px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector26 {
+  top: 0px;
+  left: 0px;
+  width: 1px;
+  height: 6px;
+  position: absolute;
+}
+.new-diagnosis-c27 {
+  top: 42.086795806884766px;
+  left: 58.36324691772461px;
+  width: 4.344115257263184px;
+  height: 4.87080192565918px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector27 {
+  top: 0px;
+  left: 0px;
+  width: 4px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c28 {
+  top: 42.06420135498047px;
+  left: 63.47426223754883px;
+  width: 4.614083290100098px;
+  height: 4.74779748916626px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector28 {
+  top: 0px;
+  left: 0px;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c29 {
+  top: 42.06431579589844px;
+  left: 68.87321472167969px;
+  width: 3.7059922218322754px;
+  height: 4.863285064697266px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector29 {
+  top: 0px;
+  left: 0px;
+  width: 4px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c30 {
+  top: 42.086795806884766px;
+  left: 73.05876159667969px;
+  width: 4.344109058380127px;
+  height: 4.87080192565918px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector30 {
+  top: 0px;
+  left: 0px;
+  width: 4px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c31 {
+  top: 40.403202056884766px;
+  left: 81.02613830566406px;
+  width: 2.961524248123169px;
+  height: 6.469799518585205px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector31 {
+  top: 0px;
+  left: 0px;
+  width: 3px;
+  height: 6px;
+  position: absolute;
+}
+.new-diagnosis-c32 {
+  top: 42.11267852783203px;
+  left: 83.70162963867188px;
+  width: 4.761341571807861px;
+  height: 4.846722602844238px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector32 {
+  top: 0px;
+  left: 0px;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c33 {
+  top: 42.10020065307617px;
+  left: 89.2452163696289px;
+  width: 2.691549777984619px;
+  height: 4.750001907348633px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector33 {
+  top: 0px;
+  left: 0px;
+  width: 3px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c34 {
+  top: 40.56979751586914px;
+  left: 95.59568786621094px;
+  width: 1.1207993030548096px;
+  height: 6.272998332977295px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector34 {
+  top: 0px;
+  left: 0px;
+  width: 1px;
+  height: 6px;
+  position: absolute;
+}
+.new-diagnosis-c35 {
+  top: 40.57160186767578px;
+  left: 97.72053527832031px;
+  width: 1.1535240411758423px;
+  height: 6.281199932098389px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector35 {
+  top: 0px;
+  left: 0px;
+  width: 1px;
+  height: 6px;
+  position: absolute;
+}
+.new-diagnosis-c36 {
+  top: 40.403202056884766px;
+  left: 99.64044189453125px;
+  width: 2.9615180492401123px;
+  height: 6.469799518585205px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector36 {
+  top: 0px;
+  left: 0px;
+  width: 3px;
+  height: 6px;
+  position: absolute;
+}
+.new-diagnosis-c37 {
+  top: 42.086795806884766px;
+  left: 102.51853942871094px;
+  width: 4.344109058380127px;
+  height: 4.87080192565918px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector37 {
+  top: 0px;
+  left: 0px;
+  width: 4px;
+  height: 5px;
+  position: absolute;
+}
+.new-diagnosis-c38 {
+  top: 40.50699996948242px;
+  left: 107.44097900390625px;
+  width: 4.712251663208008px;
+  height: 2.230401039123535px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.new-diagnosis-vector38 {
+  top: 0px;
+  left: 0px;
+  width: 5px;
+  height: 2px;
+  position: absolute;
+}
+.new-diagnosis-avatar2 {
+  top: 6px;
+  left: 669px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 22px;
+  background-color: rgba(211, 193, 250, 1);
+}
+.new-diagnosis-rectangle2 {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+}
+.new-diagnosis-container20 {
+  top: 17.5px;
+  left: 1262px;
+  width: 109px;
+  height: 28px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(30, 33, 40, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(253, 250, 238, 1);
+}
+.new-diagnosis-text48 {
+  left: 26px;
+  color: rgba(50, 55, 67, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-line2 {
+  top: 62px;
+  left: 0px;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+}
+.new-diagnosis-container71 {
+  top: 128px;
+  left: 449px;
+  width: 541px;
+  height: 644px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 0px 2px 0px rgba(23, 26, 31, 0.11999999731779099) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-text50 {
+  top: 50px;
+  left: 100px;
+  color: rgba(23, 26, 31, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 68px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-textbox18 {
+  top: 401px;
+  left: 75px;
+  width: 392px;
+  height: 51px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: rgba(243, 244, 246, 1);
+}
+.new-diagnosis-text52 {
+  top: 12px;
+  left: 141px;
+  color: rgba(23, 26, 31, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-unfoldmore {
+  top: 14px;
+  left: 349px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.new-diagnosis-line15 {
+  top: 559px;
+  left: 32px;
+  width: 477px;
+  height: 1px;
+  position: absolute;
+}
+.new-diagnosis-button67 {
+  top: 575px;
+  left: 148px;
+  width: 246px;
+  height: 52px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: rgba(109, 49, 237, 1);
+}
+.new-diagnosis-text54 {
+  top: 12px;
+  left: 59.5px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-button {
+  top: 177px;
+  left: 75px;
+  width: 391px;
+  height: 54px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(144, 149, 161, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.new-diagnosis-text56 {
+  top: 13px;
+  left: 134.5px;
+  color: rgba(144, 149, 161, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-attachfile {
+  top: 15px;
+  left: 102.5px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.new-diagnosis-text58 {
+  top: 322px;
+  left: 183px;
+  color: rgba(23, 26, 31, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 48px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-diagnosis-settingsgear5 {
+  top: 9px;
+  left: 9px;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+}

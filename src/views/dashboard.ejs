@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/css/dashboard.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="/js/dashboard.js"></script>
+  <script src="/js/message.js"></script>
+  <script src="/js/TabSwitch.js"></script>
+
+</head>
+<body>
+  <div id="dashboard">
+    <div class="header-container">
+      <h1>AI ECG Arrhythmia Prediction</h1>
+      <form action="/logout" method="POST">
+        <button id="logout-btn" type="submit">Logout</button>
+      </form>
+    </div>
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'DiagnosisResults')">Diagnosis</button>
+      <button class="tablinks" onclick="openTab(event, 'HistoryReport')">History Report</button>
+    </div>
+
+    <div id="DiagnosisResults" class="tabcontent">
+      <h3>Diagnosis Results</h3>
+      <p><strong><i class="fas fa-user"></i> Patient Name:</strong> <span id="patientName">N/A</span></p>
+      <p><strong><i class="fas fa-heartbeat"></i> Rhythm:</strong> <span id="rhythmResult">N/A</span></p>
+      <p><strong><i class="fas fa-sticky-note"></i> Note:</strong> <span id="rhythmNote">N/A</span></p>
+      <p><strong><i class="fas fa-info-circle"></i> Short Description:</strong> <span id="rhythmDescription">N/A</span></p>
+      <p id="messageBlock" class="hidden"><strong style="color: blue"> Message:</strong> <span id="message">N/A</span></p>
+    </div>
+
+    <div id="HistoryReport" class="tabcontent">
+      <iframe src="https://lookerstudio.google.com/embed/reporting/4d7ca6af-e1cb-49c0-b5c1-2ebb5b51fe41/page/6zXD" frameborder="0" title="Google Data Studio Report"></iframe>
+    </div>
+  </div>
+    <!-- New Diagnosis Popup (Hidden by default) -->
+    <div id="new-diagnosis-popup" class ="hidden">
+      <button class="close-btn" aria-label="Close Diagnosis Form">&times;</button>
+      <h2>New Diagnosis</h2>
+      <form id="diagnosis-form" action="/new-diagnosis" method="POST" enctype="multipart/form-data">
+        <label for="patient-name">Patient Name:</label>
+        <input type="text" id="patient-name" name="patientName" required placeholder="Enter patient's name">
+
+        <label for="csv-upload">Upload CSV:</label>
+        <input type="file" id="csv-upload" name="csvFile" accept=".csv" required>
+
+        <label for="model-type">Choose Model:</label>
+        <select id="model-type" name="modelType">
+          <option selected>ECG XGBoost Model</option>
+          <option selected>TimeSnet Model</option>
+          <!-- Additional model types as needed -->
+        </select>
+        <button type="submit" id="start-diagnosis">Start Diagnosis</button>
+      </form>
+    </div>
+
+    <div class="buttons-container">
+      <button id="new-diagnosis-btn" type="submit">Add New Diagnosis</button>
+    </div>
+
+    <!-- <div class="actualDiagnosis" class="tabcontent">
+      <h3>Clinical Results</h3>
+      <p><strong> File Name: </strong><span id="fileName">N/A</span></p>
+      <p><strong> Actual Rhythm: </strong><span id="fileRhythm">N/A</span></p>
+    </div> -->
+
+    <div id="loading-bar" class="hidden">
+      <div class="loading-content">
+        <span>Loading...</span>
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+
+</html>

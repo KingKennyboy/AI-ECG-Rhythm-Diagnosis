@@ -1,0 +1,880 @@
+.sign-up-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-up-sign-up {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 3px 6px 0px rgba(18, 15, 40, 0.11999999731779099) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.sign-up-frame2 {
+  gap: 10px;
+  top: -35px;
+  left: 187px;
+  width: 959px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-up-frame1 {
+  gap: 10px;
+  display: flex;
+  padding: 0 58px;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(230, 230, 230, 1);
+}
+.sign-up-rectangle2 {
+  width: 843px;
+  height: 663px;
+}
+.sign-up-rectangle3 {
+  top: 0px;
+  left: 127px;
+  width: 723px;
+  height: 663px;
+  z-index: 1;
+  position: absolute;
+}
+.sign-up-rectangle4 {
+  top: 0px;
+  left: 193px;
+  width: 592px;
+  height: 663px;
+  z-index: 2;
+  position: absolute;
+}
+.sign-up-text {
+  top: 105px;
+  left: 395px;
+  color: rgba(86, 93, 109, 1);
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 68px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sign-up-button {
+  gap: 10px;
+  display: flex;
+  padding: 12px 157px;
+  z-index: 2;
+  overflow: hidden;
+  box-shadow: 0px 0px 2px 0px rgba(109, 49, 237, 0.11999999731779099) ;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(109, 49, 237, 1);
+}
+.sign-up-text2 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sign-up-textbox1 {
+  width: 369px;
+  height: 51px;
+  display: flex;
+  z-index: 3;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: rgba(243, 244, 246, 1);
+}
+.sign-up-text4 {
+  top: 12px;
+  left: 52px;
+  color: rgba(189, 193, 202, 1);
+  width: 69px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sign-up-buildings {
+  top: 14px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.sign-up-textbox4 {
+  width: 369px;
+  height: 51px;
+  display: flex;
+  z-index: 4;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: rgba(243, 244, 246, 1);
+}
+.sign-up-text6 {
+  top: 12px;
+  left: 52px;
+  color: rgba(189, 193, 202, 1);
+  width: 92px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sign-up-lockkey {
+  top: 14px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.sign-up-image59 {
+  width: 214px;
+  height: 93px;
+  display: flex;
+  z-index: 5;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sign-up-group {
+  top: 0px;
+  left: 0.0155029296875px;
+  width: 213.88449096679688px;
+  height: 92.99999237060547px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-group1 {
+  top: 0px;
+  left: 0px;
+  width: 213.88449096679688px;
+  height: 92.99999237060547px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-group2 {
+  top: 0px;
+  left: 0px;
+  width: 213.88449096679688px;
+  height: 92.99999237060547px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-group3 {
+  top: 0px;
+  left: 0px;
+  width: 213.88449096679688px;
+  height: 92.99999237060547px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-c {
+  top: 39.245994567871094px;
+  left: 138.12049865722656px;
+  width: 12.35350227355957px;
+  height: 22.831499099731445px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 23px;
+  position: absolute;
+}
+.sign-up-c01 {
+  top: 39.245994567871094px;
+  left: 59.83000183105469px;
+  width: 12.35350227355957px;
+  height: 22.831499099731445px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector01 {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 23px;
+  position: absolute;
+}
+.sign-up-c02 {
+  top: 23.281002044677734px;
+  left: 152.05499267578125px;
+  width: 27.20249366760254px;
+  height: 38.7964973449707px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector02 {
+  top: 0px;
+  left: 0px;
+  width: 27px;
+  height: 39px;
+  position: absolute;
+}
+.sign-up-c03 {
+  top: 24.04050064086914px;
+  left: 12.663497924804688px;
+  width: 23.9320011138916px;
+  height: 38.874000549316406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector03 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 39px;
+  position: absolute;
+}
+.sign-up-c04 {
+  top: 33.82099914550781px;
+  left: 121.21001434326172px;
+  width: 15.871996879577637px;
+  height: 29.0935001373291px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector04 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 29px;
+  position: absolute;
+}
+.sign-up-c05 {
+  top: 39.32350158691406px;
+  left: 94.70500183105469px;
+  width: 27.49700164794922px;
+  height: 22.831497192382812px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector05 {
+  top: 0px;
+  left: 0px;
+  width: 27px;
+  height: 23px;
+  position: absolute;
+}
+.sign-up-c06 {
+  top: 39.493995666503906px;
+  left: 39.43199157714844px;
+  width: 18.972002029418945px;
+  height: 23.466999053955078px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector06 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 23px;
+  position: absolute;
+}
+.sign-up-c07 {
+  top: 39.44750213623047px;
+  left: 179.35049438476562px;
+  width: 18.925498962402344px;
+  height: 23.466999053955078px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector07 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 23px;
+  position: absolute;
+}
+.sign-up-c08 {
+  top: 39.47850036621094px;
+  left: 73.98149108886719px;
+  width: 19.3595027923584px;
+  height: 23.467002868652344px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector08 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 23px;
+  position: absolute;
+}
+.sign-up-c09 {
+  top: 0px;
+  left: 36.905494689941406px;
+  width: 23.9010009765625px;
+  height: 31.666500091552734px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector09 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 32px;
+  position: absolute;
+}
+.sign-up-c10 {
+  top: 11.95050048828125px;
+  left: 62.945491790771484px;
+  width: 19.095998764038086px;
+  height: 20.522001266479492px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector10 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 21px;
+  position: absolute;
+}
+.sign-up-c11 {
+  top: 11.95050048828125px;
+  left: 112.14249420166016px;
+  width: 19.095998764038086px;
+  height: 20.522001266479492px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector11 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 21px;
+  position: absolute;
+}
+.sign-up-c12 {
+  top: 11.687000274658203px;
+  left: 131.3314971923828px;
+  width: 23.683998107910156px;
+  height: 20.0414981842041px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector12 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 20px;
+  position: absolute;
+}
+.sign-up-c13 {
+  top: 11.888500213623047px;
+  left: 84.13400268554688px;
+  width: 13.68649673461914px;
+  height: 20.537500381469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector13 {
+  top: 0px;
+  left: 0px;
+  width: 14px;
+  height: 21px;
+  position: absolute;
+}
+.sign-up-c14 {
+  top: 6.2154998779296875px;
+  left: 98.61099243164062px;
+  width: 13.68649673461914px;
+  height: 26.256999969482422px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector14 {
+  top: 0px;
+  left: 0px;
+  width: 14px;
+  height: 26px;
+  position: absolute;
+}
+.sign-up-c15 {
+  top: 76.95750427246094px;
+  left: 0px;
+  width: 12.399999618530273px;
+  height: 11.85749626159668px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector15 {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
+.sign-up-c16 {
+  top: 76.94200134277344px;
+  left: 12.818496704101562px;
+  width: 8.881499290466309px;
+  height: 12.06431770324707px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector16 {
+  top: 0px;
+  left: 0px;
+  width: 9px;
+  height: 12px;
+  position: absolute;
+}
+.sign-up-c17 {
+  top: 80.02650451660156px;
+  left: 23.110496520996094px;
+  width: 8.850500106811523px;
+  height: 8.804000854492188px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector17 {
+  top: 0px;
+  left: 0px;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c18 {
+  top: 79.93350219726562px;
+  left: 32.00749969482422px;
+  width: 7.997999668121338px;
+  height: 9.114001274108887px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector18 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c19 {
+  top: 79.80949401855469px;
+  left: 41.9739990234375px;
+  width: 8.83499813079834px;
+  height: 8.974495887756348px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector19 {
+  top: 0px;
+  left: 0px;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c20 {
+  top: 79.79270935058594px;
+  left: 52.3589973449707px;
+  width: 7.021498203277588px;
+  height: 9.192794799804688px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector20 {
+  top: 0px;
+  left: 0px;
+  width: 7px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c21 {
+  top: 76.95750427246094px;
+  left: 60.852996826171875px;
+  width: 2.185499668121338px;
+  height: 11.873000144958496px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector21 {
+  top: 0px;
+  left: 0px;
+  width: 2px;
+  height: 12px;
+  position: absolute;
+}
+.sign-up-c22 {
+  top: 79.80949401855469px;
+  left: 64.80549621582031px;
+  width: 8.83499526977539px;
+  height: 8.974495887756348px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector22 {
+  top: 0px;
+  left: 0px;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c23 {
+  top: 79.80949401855469px;
+  left: 75.20599365234375px;
+  width: 9.067503929138184px;
+  height: 13.190497398376465px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector23 {
+  top: 0px;
+  left: 0px;
+  width: 9px;
+  height: 13px;
+  position: absolute;
+}
+.sign-up-c24 {
+  top: 79.79400634765625px;
+  left: 91.69799041748047px;
+  width: 5.889998912811279px;
+  height: 9.176003456115723px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector24 {
+  top: 0px;
+  left: 0px;
+  width: 6px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c25 {
+  top: 79.79270935058594px;
+  left: 98.99849700927734px;
+  width: 7.021503925323486px;
+  height: 9.192794799804688px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector25 {
+  top: 0px;
+  left: 0px;
+  width: 7px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c26 {
+  top: 76.95750427246094px;
+  left: 107.58549499511719px;
+  width: 2.1854939460754395px;
+  height: 11.873000144958496px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector26 {
+  top: 0px;
+  left: 0px;
+  width: 2px;
+  height: 12px;
+  position: absolute;
+}
+.sign-up-c27 {
+  top: 79.84049987792969px;
+  left: 111.33649444580078px;
+  width: 8.230507850646973px;
+  height: 9.207003593444824px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector27 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c28 {
+  top: 79.80949401855469px;
+  left: 121.08599090576172px;
+  width: 8.741998672485352px;
+  height: 8.974495887756348px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector28 {
+  top: 0px;
+  left: 0px;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c29 {
+  top: 79.79270935058594px;
+  left: 131.3780059814453px;
+  width: 7.021498203277588px;
+  height: 9.192794799804688px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector29 {
+  top: 0px;
+  left: 0px;
+  width: 7px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c30 {
+  top: 79.84049987792969px;
+  left: 139.37600708007812px;
+  width: 8.230496406555176px;
+  height: 9.207003593444824px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector30 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c31 {
+  top: 76.64749908447266px;
+  left: 154.55050659179688px;
+  width: 5.61100435256958px;
+  height: 12.229498863220215px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector31 {
+  top: 0px;
+  left: 0px;
+  width: 6px;
+  height: 12px;
+  position: absolute;
+}
+.sign-up-c32 {
+  top: 79.8860092163086px;
+  left: 159.68101501464844px;
+  width: 9.020999908447266px;
+  height: 9.161487579345703px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector32 {
+  top: 0px;
+  left: 0px;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c33 {
+  top: 79.85183715820312px;
+  left: 170.25201416015625px;
+  width: 5.099501609802246px;
+  height: 8.978662490844727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector33 {
+  top: 0px;
+  left: 0px;
+  width: 5px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c34 {
+  top: 76.95750427246094px;
+  left: 182.35748291015625px;
+  width: 2.123504161834717px;
+  height: 11.85749626159668px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector34 {
+  top: 0px;
+  left: 0px;
+  width: 2px;
+  height: 12px;
+  position: absolute;
+}
+.sign-up-c35 {
+  top: 76.95750427246094px;
+  left: 186.38748168945312px;
+  width: 2.1855056285858154px;
+  height: 11.873000144958496px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector35 {
+  top: 0px;
+  left: 0px;
+  width: 2px;
+  height: 12px;
+  position: absolute;
+}
+.sign-up-c36 {
+  top: 76.64749908447266px;
+  left: 190.0764923095703px;
+  width: 5.610992431640625px;
+  height: 12.229498863220215px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector36 {
+  top: 0px;
+  left: 0px;
+  width: 6px;
+  height: 12px;
+  position: absolute;
+}
+.sign-up-c37 {
+  top: 79.84049987792969px;
+  left: 195.57901000976562px;
+  width: 8.230496406555176px;
+  height: 9.207003593444824px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector37 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 9px;
+  position: absolute;
+}
+.sign-up-c38 {
+  top: 76.83350372314453px;
+  left: 204.95651245117188px;
+  width: 8.92799186706543px;
+  height: 4.216001987457275px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sign-up-vector38 {
+  top: 0px;
+  left: 0px;
+  width: 9px;
+  height: 4px;
+  position: absolute;
+}

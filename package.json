@@ -1,0 +1,45 @@
+{
+  "name": "diagnose_arrhythmia_ecg",
+  "version": "1.0.0",
+  "description": "Html + Css + javascript + nodeJs + mongodb + data science",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "start": "babel-node src/server.js",
+    "lint": "eslint ./**/*.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "@babel/node": "^7.23.9",
+    "body": "^5.1.0",
+    "cor": "^0.0.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-extend": "^0.0.1",
+    "express-session": "^1.18.0",
+    "jquery": "^3.7.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "parser": "^0.1.4",
+    "pytest-cov": "^0.0.1",
+    "supertest-session": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "chai": "^5.1.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "mocha": "^10.4.0",
+    "nyc": "^15.1.0",
+    "supertest": "^6.3.4"
+  }
+}

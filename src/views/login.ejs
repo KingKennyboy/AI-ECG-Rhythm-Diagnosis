@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+
+<div class="login-container">
+    <div class="login-content">
+        <h2>LOGIN</h2>
+        <% if (typeof error !== 'undefined') { %>
+            <div class="error-message"><%= error %></div>
+        <% } %>
+        <form action="/login" method="POST">
+            <div class="input-group">
+                <input type="text" id="userId" name="userId" placeholder="User Id" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="login-button">Sign In</button>
+        </form>
+        <div class="logo-container">
+            <img src="https://edenoutsource.com/wp-content/uploads/2017/04/boston-scientific-768x288.png" alt="Boston Scientific Logo" class="login-logo">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
