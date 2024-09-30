@@ -1,4 +1,4 @@
-# diagnose_arrhythmia_ecg
+# AI-ECG-Rhythm-Diagnosis
 Html + Css + javascript + nodeJs + mongodb + data science + python
 
 Project: This project goal is to teach an artificially intelligent software how to diagnose heart rhythms and identify their anatomic
